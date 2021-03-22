@@ -1,1 +1,1 @@
-# Fire-Data-vs-Weather-Data
+# Fire-Data-vs-Drought-Data
