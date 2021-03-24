@@ -61,4 +61,9 @@ By comparing the data for both droughts and fires over the same period of time w
 ## ERD
 ![ERD](Load/fire_drought_erd.png)
 
+## Use Cases
+* Analysis of fire causes per county and correlating with drought conditions
+* Analysis of drought conditions by county per year 
+* Analysis of fire occurences by location (lat/lon) and drought conditions at given week
+
 
