@@ -37,9 +37,11 @@ CREATE TABLE droughts (
 DROP TABLE IF EXISTS counties;
 
 CREATE TABLE counties (
-	index_id INT NOT NULL,
-	county_name VARCHAR(100),
-	county_id INT NOT NULL
+	county_id INT NOT NULL,
+	county VARCHAR(100),
+	fips_code INT NOT NULL,
+	population INT,
+	area VARCHAR(200)
 );
 
 -- dropping counties_2 table 

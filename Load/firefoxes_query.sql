@@ -137,3 +137,21 @@ SELECT
 	* 
 FROM 
 	yearly_fire_drought_join;
+	
+-- creating view on number of fires vs population for year 2015
+CREATE VIEW fire_county_details AS(	
+	SELECT
+		counties.county,
+		counties.population,
+		counties.area,
+		fire_groups.num_of_fires,
+		fire_groups.fire_year
+	FROM
+		counties, 
+		fire_groups
+	WHERE counties.county = fire_groups.county_name);
+	
+SELECT 
+	*
+FROM
+	fire_county_details;
